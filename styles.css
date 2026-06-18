@@ -401,6 +401,42 @@ h1, h2, h3, h4 { margin-bottom: 20px; }
   border-radius: var(--border-radius);
 }
 
+/* Service Area page hero (same layout as Projects hero) */
+#service-area-hero { padding-top: calc(var(--section-pad-y) + 4.5rem); }
+#service-area-hero .intro { max-width: 760px; margin: 0 auto 2rem; }
+/* Reserved map space */
+.map-placeholder {
+  min-height: 460px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map-placeholder span { opacity: 0.4; font-size: 0.95rem; }
+/* Home base highlight */
+.home-base {
+  max-width: 720px;
+  margin: 0 auto 3rem;
+  padding: 1.5rem 2rem;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+.home-base h3 { margin-bottom: 0.4rem; color: var(--color-accent); }
+.home-base p { opacity: 0.85; }
+/* Counties grid */
+.area-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 1.75rem;
+  margin-top: 2.5rem;
+  text-align: left;
+}
+@media (max-width: 900px) { .area-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .area-grid { grid-template-columns: 1fr; } }
+.area-county h3 { margin-bottom: 0.35rem; font-size: 1.1rem; }
+.area-county p { opacity: 0.75; font-size: 0.95rem; line-height: 1.65; }
+
 /* Contact page */
 #contact-intro { padding-top: calc(var(--section-pad-y) + 4.5rem); }
 #contact-intro .intro { max-width: 640px; }
