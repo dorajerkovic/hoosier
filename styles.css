@@ -418,7 +418,9 @@ h1, h2, h3, h4 { margin-bottom: 20px; }
 #service-area-hero { padding-top: calc(var(--section-pad-y) + 4.5rem); }
 #service-area-hero .intro { max-width: 760px; margin: 0 auto 2rem; }
 /* Reserved map space */
+#service-map { padding-top: 0; }
 .map-placeholder {
+  margin-top: 0;
   min-height: 460px;
   border: var(--border);
   border-radius: var(--border-radius);
@@ -437,6 +439,34 @@ h1, h2, h3, h4 { margin-bottom: 20px; }
 }
 .home-base h3 { margin-bottom: 0.4rem; color: var(--color-accent); }
 .home-base p { opacity: 0.85; }
+/* City boxes (local-page entry points on the Service Area page) */
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin: 2rem auto 0;
+  text-align: left;
+}
+@media (max-width: 900px) { .city-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .city-grid { grid-template-columns: 1fr; } }
+.city-box {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 1.1rem 1.25rem;
+}
+.city-box h3 {
+  margin-bottom: 0.4rem;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+.city-box ul { list-style: none; margin: 0; }
+.city-box li { margin-bottom: 0.3rem; }
+.city-box li:last-child { margin-bottom: 0; }
+.city-box a { font-size: 14px; color: var(--color-black); }
+.city-box a:hover { color: var(--color-accent); }
+/* Counties section heading spacing */
+#coverage h2 { margin-top: 50px; }
 /* Counties grid */
 .area-grid {
   display: grid;
@@ -614,6 +644,27 @@ h1, h2, h3, h4 { margin-bottom: 20px; }
   background: var(--border-color);
   border-radius: var(--border-radius);
 }
+
+/* Breadcrumbs */
+.breadcrumb { font-size: 0.85rem; margin-bottom: 1.25rem; opacity: 0.9; }
+.breadcrumb a { color: var(--color-accent); }
+.breadcrumb a:hover { opacity: 0.85; }
+.breadcrumb span { opacity: 0.7; }
+
+/* Related-services links block */
+.related-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.5rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.related-links a { color: var(--color-accent); font-weight: 600; }
+
+/* Small contextual service-area note (on dark hero) */
+.svc-note { margin-top: 1.25rem; font-size: 0.95rem; opacity: 0.9; }
+.svc-note a { color: var(--color-accent); font-weight: 600; }
 
 /* Service-area / coverage copy spacing */
 .coverage h4 { margin-top: 1.5rem; margin-bottom: 0.35rem; color: var(--color-accent); }
