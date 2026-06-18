@@ -27,3 +27,6 @@ images/trench-excavating-installing-various-utility-pipes-cables-showing-ongoing
 images/Hoosier_Favicon1.png
 images/Hoosier_Horizontal Logo1.png
 images/Hoosier Logo Full.png
+
+# Ignore all JPGs anywhere (only optimized .webp are served)
+*.jpg
