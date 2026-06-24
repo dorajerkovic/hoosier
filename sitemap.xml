@@ -66,8 +66,15 @@
   </url>
 
   <url>
-    <loc>https://hoosierdirtandgravel.com/service-area/shelbyville/gravel-driveway-installation-repair.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <loc>https://hoosierdirtandgravel.com/indiana/shelbyville/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://hoosierdirtandgravel.com/indiana/shelbyville/gravel-driveway-installation-repair/</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
@@ -77,39 +84,80 @@
   </url>
 
   <url>
-    <loc>https://hoosierdirtandgravel.com/service-area/fairland/gravel-driveway-installation-repair.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <loc>https://hoosierdirtandgravel.com/indiana/fairland/</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://hoosierdirtandgravel.com/service-area/morristown/gravel-driveway-installation-repair.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <loc>https://hoosierdirtandgravel.com/indiana/fairland/gravel-driveway-installation-repair/</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://hoosierdirtandgravel.com/service-area/waldron/gravel-driveway-installation-repair.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <loc>https://hoosierdirtandgravel.com/indiana/morristown/</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://hoosierdirtandgravel.com/service-area/manilla/gravel-driveway-installation-repair.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <loc>https://hoosierdirtandgravel.com/indiana/morristown/gravel-driveway-installation-repair/</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://hoosierdirtandgravel.com/service-area/fountaintown/gravel-driveway-installation-repair.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <loc>https://hoosierdirtandgravel.com/indiana/waldron/</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <url>
+    <loc>https://hoosierdirtandgravel.com/indiana/waldron/gravel-driveway-installation-repair/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://hoosierdirtandgravel.com/indiana/manilla/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://hoosierdirtandgravel.com/indiana/manilla/gravel-driveway-installation-repair/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://hoosierdirtandgravel.com/indiana/fountaintown/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://hoosierdirtandgravel.com/indiana/fountaintown/gravel-driveway-installation-repair/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+
+
+
+
+
 
   <url>
     <loc>https://hoosierdirtandgravel.com/faq.html</loc>
