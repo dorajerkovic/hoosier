@@ -30,3 +30,11 @@ images/Hoosier Logo Full.png
 
 # Ignore all JPGs anywhere (only optimized .webp are served)
 *.jpg
+
+# Raw project media drops (kept local only — never serve RAW/HEIC/video from the repo)
+images/Johns graded driveway/
+images/Kens New Driveway/
+*.CR2
+*.heic
+*.HEIC
+*.mp4
